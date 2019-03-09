@@ -570,6 +570,7 @@ h6 {
 }
 
 .benefits__window {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -593,10 +594,12 @@ h6 {
 }
 
 .benefits__windowIcon {
-  -webkit-transform: translateY(-25%);
-          transform: translateY(-25%);
-  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
   line-height: 100%;
+  text-align: center;
+  font-size: 40px;
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
 }
@@ -606,9 +609,10 @@ h6 {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 1px;
-  padding: 0 0 0 10px;
-  font-size: 11px;
+  padding: 0 0 0 80px;
   line-height: 150%;
+  text-align: left;
+  font-size: 11px;
 }
 
 .forCompany {
