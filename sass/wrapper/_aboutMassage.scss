@@ -53,10 +53,6 @@
         @include mainFontBold;
     }
 
-    &__windowsContainer {
-        position: relative;
-    }
-
     &__btn {
         @include mainBtn;
     }
