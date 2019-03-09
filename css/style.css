@@ -273,6 +273,8 @@ h6 {
   margin-top: 80px;
   height: 80vh;
   width: 100%;
+  -webkit-box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
 }
 
 .intro__bg {
@@ -344,6 +346,8 @@ h6 {
   position: relative;
   padding: 40px 15px;
   text-align: center;
+  -webkit-box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
 }
 
 .aboutMassage__bg {
@@ -468,6 +472,8 @@ h6 {
   position: relative;
   padding: 40px 15px;
   text-align: center;
+  -webkit-box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
 }
 
 .benefits__bg {
@@ -616,6 +622,8 @@ h6 {
   position: relative;
   padding: 40px 15px;
   text-align: center;
+  -webkit-box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
 }
 
 .forCompany__bg {
