@@ -70,6 +70,8 @@
     font-weight: 700;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+    filter: saturate(1.5);
+
 }
 
 @mixin mainTitleSmaller {
