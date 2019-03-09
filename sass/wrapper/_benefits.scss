@@ -1,0 +1,67 @@
+.benefits {
+    @include mainSection;
+
+    &__bg {
+        @include mainBgCover;
+        background-image: url("../img/benefits/benefits-bg.jpg");
+        filter: opacity(.25);
+    }
+
+    &__title--bigger {
+        @include mainTitleBigger;
+    }
+
+    &__title--smaller {
+        @include mainTitleSmaller;
+    }
+
+    &__desc {
+        @include mainNormalDesc;
+    }
+
+    &__bold {
+        @include mainFontBold;
+    }
+
+    &__btn {
+        @include mainBtn;
+    }
+
+    &__windowsContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: space-around;
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    &__window {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: flex-start;
+        position: relative;
+        margin: 10px auto;
+        width: 260px;
+    }
+
+    &__windowIcon {
+        transform: translateY(-25%);
+        font-size: 40px;
+        line-height: 100%;
+        filter: saturate(1.5);
+    }
+
+    &__windowDesc {
+        @include mainNormalDesc;
+        padding: 0 0 0 10px;
+        font-size: 11px;
+        line-height: 150%;
+    }
+}
