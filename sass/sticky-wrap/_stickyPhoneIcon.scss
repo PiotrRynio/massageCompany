@@ -10,6 +10,7 @@
     border-radius: 50%;
     border: $color-main-dist-02 solid 2px;
     background-color: rgba(255, 255, 255, .9);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
 
     @include flexCenteringBoth;
 
