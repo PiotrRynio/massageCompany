@@ -4,7 +4,7 @@
     &__bg {
         @include mainBgCover;
         background-image: url("../img/aboutMassage/aboutMassage-bg.jpg");
-        filter: opacity(.3);
+        filter: opacity(.5);
     }
 
     &__title--bigger {
@@ -19,8 +19,42 @@
         @include mainNormalDesc;
     }
 
+    &__windowsContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: space-around;
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+    &__window {
+        margin-bottom: 10px;
+        width: 120px;
+        padding: 10px;
+        border-radius: 20px;
+        background: $color-main-dist-mix-01;
+        border: $color-main-dist-01 solid 2px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    &__windowIcon {
+        font-size: 40px;
+    }
+
+    &__windowDesc {
+        font-size: 11px;
+
+    }
+
     &__bold {
         @include mainFontBold;
+    }
+
+    &__windowsContainer {
+        position: relative;
     }
 
     &__btn {

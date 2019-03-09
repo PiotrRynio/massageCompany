@@ -24,6 +24,7 @@
 }
 
 @mixin mainBgCover {
+    z-index: -1;
     position: absolute;
     top: 0;
     left: 0;
@@ -34,15 +35,16 @@
 }
 
 @mixin mainBtn {
-    position: relative;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 12px 25px;
     border-radius: 4px;
     border: none;
     background: $color-btn-bg;
     color: #FFFFFF;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
     font-weight: 400;
     transition: all 0.5s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -61,7 +63,6 @@
 }
 
 @mixin mainTitleBigger {
-    position: relative;
     text-align: center;
     line-height: 150%;
     color: $color-main-dist-01;
@@ -78,7 +79,6 @@
 }
 
 @mixin mainNormalDesc {
-    position: relative;
     padding: 20px 0;
     font-size: 15px;
     line-height: 150%;
