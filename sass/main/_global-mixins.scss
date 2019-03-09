@@ -1,0 +1,91 @@
+@mixin flexParent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+@mixin flexCenteringHorizontal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin flexCenteringVertical {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexCenteringBoth {
+    @include flexCenteringHorizontal;
+    @include flexCenteringVertical;
+}
+
+@mixin mainBgCover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    // background-image: url("");
+}
+
+@mixin mainBtn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: none;
+    background: $color-btn-bg;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: saturate(1.5);
+    cursor: pointer;
+
+    &:hover {
+        filter: saturate(5);
+    }
+}
+
+@mixin mainSection {
+    position: relative;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+@mixin mainTitleBigger {
+    position: relative;
+    text-align: center;
+    line-height: 150%;
+    color: $color-main-dist-01;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+@mixin mainTitleSmaller {
+    @include mainTitleBigger;
+    color: $color-main-font;
+    font-size: 20px;
+}
+
+@mixin mainNormalDesc {
+    position: relative;
+    padding: 20px 0;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+@mixin mainFontBold {
+    font-weight: 700;
+}

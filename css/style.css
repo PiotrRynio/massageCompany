@@ -1,0 +1,419 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  cursor: default;
+}
+
+.allWraps {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.upperBar {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: white;
+}
+
+.upperBar__iconsContainer, .upperBar__burger {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 70%;
+}
+
+.upperBar__logo {
+  padding-left: 20px;
+  height: 100%;
+}
+
+.upperBar__burger {
+  right: 20px;
+  left: unset;
+}
+
+.upperBar__nav {
+  position: absolute;
+  top: 80px;
+}
+
+.burger {
+  height: 30px;
+  width: 48px;
+}
+
+.burger__first, .burger__second, .burger__third {
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background-color: black;
+  border-radius: 2px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.burger__first--active, .burger__second--active, .burger__third--active {
+  top: 50%;
+  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
+  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+}
+
+.burger__first {
+  top: 0;
+}
+
+.burger__first--active {
+  top: 50%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.burger__second {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.burger__second--active {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.burger__third {
+  bottom: 0;
+}
+
+.burger__third--active {
+  top: 50%;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.navMenu {
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #333;
+}
+
+.navMenu__li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-left: 10%;
+  line-height: 50px;
+  text-align: left;
+  background-color: inherit;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navMenu__line {
+  display: block;
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* Preloader */
+.preloader {
+  z-index: 30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
+  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  -webkit-transition: opacity .7s ease;
+  transition: opacity .7s ease;
+  /* Helpers */
+}
+
+.preloader__dot {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: show-hide 1s ease infinite;
+          animation: show-hide 1s ease infinite;
+}
+
+.preloader__dot:nth-child(2) {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+.preloader__dot:nth-child(3) {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.preloader--hiding {
+  opacity: 0;
+}
+
+.preloader--hidden {
+  display: none;
+}
+
+@-webkit-keyframes show-hide {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes show-hide {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.stickyPhoneIcon {
+  z-index: 31;
+  overflow: hidden;
+  display: block;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: #F2C94C solid 2px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stickyPhoneIcon__icon {
+  height: 70%;
+  width: 70%;
+}
+
+.intro {
+  overflow: hidden;
+  position: relative;
+  margin-top: 80px;
+  height: 80vh;
+  width: 100%;
+}
+
+.intro__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../img/intro/intro-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro__textContainer {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  padding: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 22px;
+  line-height: 150%;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.intro__title {
+  font-size: 38px;
+}
+
+.intro__desc {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro__btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: none;
+  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
+  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-filter: saturate(1.5);
+          filter: saturate(1.5);
+  cursor: pointer;
+}
+
+.intro__btn:hover {
+  -webkit-filter: saturate(5);
+          filter: saturate(5);
+}
+
+.aboutMassage {
+  position: relative;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.aboutMassage__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../img/aboutMassage/aboutMassage-bg.jpg");
+  -webkit-filter: opacity(0.3);
+          filter: opacity(0.3);
+}
+
+.aboutMassage__title--bigger {
+  position: relative;
+  text-align: center;
+  line-height: 150%;
+  color: #F2994A;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMassage__title--smaller {
+  position: relative;
+  text-align: center;
+  line-height: 150%;
+  color: #F2994A;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+  font-size: 20px;
+}
+
+.aboutMassage__desc {
+  position: relative;
+  padding: 20px 0;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}
+
+.aboutMassage__bold {
+  font-weight: 700;
+}
+
+.aboutMassage__btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: none;
+  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
+  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-filter: saturate(1.5);
+          filter: saturate(1.5);
+  cursor: pointer;
+}
+
+.aboutMassage__btn:hover {
+  -webkit-filter: saturate(5);
+          filter: saturate(5);
+}
+/*# sourceMappingURL=style.css.map */

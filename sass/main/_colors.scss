@@ -1,0 +1,20 @@
+// all 
+
+// main
+$color-main-font: black;
+$color-main-bgc: white;
+
+//dist
+$color-main-dist-font: white;
+$color-main-dist-01: #F2994A;
+$color-main-dist-02: #F2C94C;
+$color-main-dist-mix-01: $color-main-dist-01 linear-gradient(to right, $color-main-dist-01, $color-main-dist-02);
+
+// preloader
+$color-preloader: $color-main-dist-mix-01;
+// navMenu
+$color-navMenu-font: white;
+$color-navMenu-bgc: #333;
+// button
+$color-btn-font: white;
+$color-btn-bg: $color-main-dist-mix-01;

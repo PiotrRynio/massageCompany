@@ -1,0 +1,120 @@
+.upperBar {
+  z-index: 20;
+  // overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: $color-main-bgc;
+
+  &__iconsContainer,
+  &__burger {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 70%;
+  }
+
+  &__logo {
+    padding-left: 20px;
+    height: 100%;
+  }
+
+  // &__phone {
+  //   padding-left: 35px;
+  //   padding-bottom: 5px;
+  //   height: 80%;
+  // }
+
+  &__burger {
+    right: 20px;
+    left: unset;
+  }
+
+  &__nav {
+    position: absolute;
+    top: 80px;
+  }
+}
+
+.burger {
+  height: 30px;
+  width: 48px;
+
+  &__first,
+  &__second,
+  &__third {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background-color: $color-main-font;
+    border-radius: 2px;
+    transition: .5s;
+
+    &--active {
+      top: 50%;
+
+      background: $color-main-dist-mix-01;
+    }
+  }
+
+  &__first {
+    top: 0;
+
+    &--active {
+      top: 50%;
+      transform: rotate(45deg);
+    }
+  }
+
+  &__second {
+    top: 50%;
+    transform: translateY(-50%);
+
+    &--active {
+      transform: rotate(-45deg);
+    }
+  }
+
+  &__third {
+    bottom: 0;
+
+    &--active {
+      top: 50%;
+      transform: rotate(135deg);
+    }
+  }
+}
+
+.navMenu {
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 0;
+  background-color: $color-navMenu-bgc;
+
+  &__li {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10%;
+    line-height: 50px;
+    text-align: left;
+    background-color: inherit;
+    color: $color-navMenu-font;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  &__line {
+    display: block;
+    width: 80%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: $color-navMenu-font;
+  }
+}

@@ -1,0 +1,29 @@
+.aboutMassage {
+    @include mainSection;
+
+    &__bg {
+        @include mainBgCover;
+        background-image: url("../img/aboutMassage/aboutMassage-bg.jpg");
+        filter: opacity(.3);
+    }
+
+    &__title--bigger {
+        @include mainTitleBigger;
+    }
+
+    &__title--smaller {
+        @include mainTitleSmaller;
+    }
+
+    &__desc {
+        @include mainNormalDesc;
+    }
+
+    &__bold {
+        @include mainFontBold;
+    }
+
+    &__btn {
+        @include mainBtn;
+    }
+}

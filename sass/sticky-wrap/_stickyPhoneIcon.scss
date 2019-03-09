@@ -1,0 +1,20 @@
+.stickyPhoneIcon {
+    z-index: 31;
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: $color-main-dist-02 solid 2px;
+    background-color: rgba(255, 255, 255, .9);
+
+    @include flexCenteringBoth;
+
+    &__icon {
+        height: 70%;
+        width: 70%;
+    }
+}
