@@ -3,8 +3,6 @@
 
     &__bg {
         @include mainBgCover;
-        background-image: url("../img/benefits/benefits-bg.jpg");
-        filter: opacity(.25);
     }
 
     &__title--bigger {

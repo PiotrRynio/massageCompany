@@ -478,9 +478,6 @@ h6 {
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-image: url("../img/benefits/benefits-bg.jpg");
-  -webkit-filter: opacity(0.25);
-          filter: opacity(0.25);
 }
 
 .benefits__title--bigger {
