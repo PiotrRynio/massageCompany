@@ -1,0 +1,55 @@
+.footer {
+    background: $color-main-dist-mix-01;
+
+    &__contact,
+    &__clause {
+        line-height: 180%;
+    }
+
+    &__contact {
+        padding: 30px 0 15px 40px;
+    }
+
+    &__line {
+        display: block;
+        height: 1px;
+        width: 80%;
+        margin: 20px auto;
+        background-color: $color-main-font;
+        content: "";
+    }
+
+    &__clause {
+        padding: 10px 20px 25px;
+        color: $color-main-font;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: center;
+        // background-color: $color-basic-font;
+        // color: $color-basic-bgc;
+        font-size: 16px;
+
+        &__item {
+            // flex-grow: 1;
+            align-self: flex-start;
+            line-height: 200%;
+        }
+
+        &__icon {
+            padding: 0 15px 0 0;
+            // color: $color-basic-distc;
+            font-size: 1.5em;
+            transform: translateY(10%);
+            opacity: 0.5;
+        }
+    }
+}
