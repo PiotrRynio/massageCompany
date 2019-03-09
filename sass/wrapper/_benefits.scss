@@ -47,15 +47,17 @@
         align-content: flex-start;
         position: relative;
         margin: 10px auto;
-        width: 260px;
+        width: 270px;
     }
 
     &__windowIcon {
+        @include flexCenteringBoth;
         position: absolute;
         top: 0;
         left: 0;
         line-height: 100%;
-        text-align: center;
+        width: 60px;
+        height: 100%;
         font-size: 40px;
         filter: saturate(1.5);
     }
