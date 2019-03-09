@@ -354,7 +354,7 @@ h6 {
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-image: url("../img/aboutMassage/aboutMassage-bg.jpg");
+  background-image: url("../img/sections/aboutMassage/aboutMassage-bg.jpg");
   -webkit-filter: opacity(0.5);
           filter: opacity(0.5);
 }
@@ -626,7 +626,7 @@ h6 {
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-image: url("../img/benefits/benefits-bg.jpg");
+  background-image: url("../img/sections/forCompany/forCompany-bg.jpg");
   -webkit-filter: opacity(0.25);
           filter: opacity(0.25);
 }
