@@ -611,6 +611,103 @@ h6 {
   line-height: 150%;
 }
 
+.forCompany {
+  position: relative;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.forCompany__bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../img/benefits/benefits-bg.jpg");
+  -webkit-filter: opacity(0.25);
+          filter: opacity(0.25);
+}
+
+.forCompany__title--bigger {
+  text-align: center;
+  line-height: 150%;
+  color: #F2994A;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-filter: saturate(1.5);
+          filter: saturate(1.5);
+}
+
+.forCompany__title--smaller {
+  text-align: center;
+  line-height: 150%;
+  color: #F2994A;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-filter: saturate(1.5);
+          filter: saturate(1.5);
+  color: black;
+  font-size: 20px;
+}
+
+.forCompany__desc {
+  padding: 20px 0;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+
+.forCompany__bold {
+  font-weight: 700;
+}
+
+.forCompany__btnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+}
+
+.forCompany__btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 4px;
+  border: none;
+  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
+  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  font-weight: 400;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-filter: saturate(1.5);
+          filter: saturate(1.5);
+  cursor: pointer;
+}
+
+.forCompany__btn:hover {
+  -webkit-filter: saturate(5);
+          filter: saturate(5);
+}
+
 .footer {
   background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
   background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);

@@ -1,0 +1,38 @@
+.forCompany {
+    @include mainSection;
+
+    &__bg {
+        @include mainBgCover;
+        background-image: url("../img/benefits/benefits-bg.jpg");
+        filter: opacity(.25);
+    }
+
+    &__title--bigger {
+        @include mainTitleBigger;
+    }
+
+    &__title--smaller {
+        @include mainTitleSmaller;
+    }
+
+    &__desc {
+        @include mainNormalDesc;
+    }
+
+    &__bold {
+        @include mainFontBold;
+    }
+
+    &__btnContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: center;
+
+        width: 100%;
+    }
+
+    &__btn {
+        @include mainBtn;
+    }
+}
