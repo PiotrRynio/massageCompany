@@ -297,7 +297,7 @@ h6 {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   text-align: center;
-  padding: 10%;
+  padding: 10% 10%;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 22px;
@@ -313,8 +313,10 @@ h6 {
 }
 
 .intro__desc {
+  max-width: 500px;
   padding-top: 10px;
   padding-bottom: 20px;
+  margin: 0 auto;
 }
 
 .intro__btn {
@@ -342,6 +344,100 @@ h6 {
 .intro__btn:hover {
   -webkit-filter: saturate(5);
           filter: saturate(5);
+}
+
+@media only screen and (orientation: portrait) and (min-width: 400px) {
+  .intro__textContainer {
+    font-size: 25px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+  .intro__title {
+    font-size: 50px;
+  }
+  .intro__desc {
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-width: 700px) {
+  .intro__textContainer {
+    font-size: 28px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .intro__title {
+    font-size: 65px;
+  }
+  .intro__desc {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-width: 1000px) {
+  .intro__textContainer {
+    font-size: 40px;
+  }
+  .intro__title {
+    font-size: 85px;
+  }
+  .intro__desc {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .intro__textContainer {
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  .intro__title {
+    font-size: 30px;
+  }
+  .intro__desc {
+    max-width: 360px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-height: 360px) {
+  .intro__textContainer {
+    padding-top: 3%;
+  }
+  .intro__title {
+    font-size: 33px;
+  }
+  .intro__desc {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-height: 700px) {
+  .intro__textContainer {
+    font-size: 27px;
+  }
+  .intro__title {
+    font-size: 65px;
+  }
+  .intro__desc {
+    max-width: 500px;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-height: 1000px) {
+  .intro__textContainer {
+    font-size: 31px;
+  }
+  .intro__title {
+    font-size: 75px;
+  }
+  .intro__desc {
+    padding-top: 30px;
+  }
 }
 
 .aboutMassage {
