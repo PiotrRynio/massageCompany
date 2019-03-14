@@ -33,6 +33,7 @@
         align-items: flex-start;
         align-content: space-around;
         position: relative;
+        max-width: 1050px;
         margin: 0 auto;
         padding-bottom: 20px;
     }
@@ -66,5 +67,31 @@
         line-height: 150%;
         text-align: left;
         font-size: 11px;
+    }
+}
+
+@media only screen {
+    @media (min-width: 540px) {
+        .benefits {
+            &__windowsContainer {
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .benefits {
+            &__windowsContainer {
+                padding-bottom: 35px;
+            }
+        }
+    }
+
+    @media (min-width: 1650px) {
+        .benefits {
+            &__windowsContainer {
+                max-width: unset;
+            }
+        }
     }
 }
