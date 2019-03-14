@@ -17,6 +17,7 @@
 
     &__desc {
         @include mainNormalDesc;
+        max-width: 900px;
     }
 
     &__windowsContainer {
@@ -27,6 +28,8 @@
         align-items: stretch;
         align-content: space-around;
         position: relative;
+        max-width: 320px;
+        margin: 0 auto;
         padding-bottom: 20px;
     }
 
@@ -42,11 +45,11 @@
 
     &__windowIcon {
         font-size: 40px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
     }
 
     &__windowDesc {
         font-size: 11px;
-
     }
 
     &__bold {
@@ -55,5 +58,32 @@
 
     &__btn {
         @include mainBtn;
+    }
+}
+
+@media only screen {
+
+    @media (min-width: 560px) {
+        .aboutMassage {
+            &__windowsContainer {
+                max-width: 700px;
+            }
+        }
+    }
+
+    @media (orientation: landscape) {
+        @media (min-height: 700px) {
+            .aboutMassage {
+                &__desc {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+
+                &__windowsContainer {
+                    padding-bottom: 25px;
+                }
+            }
+
+        }
     }
 }

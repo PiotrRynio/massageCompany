@@ -493,6 +493,7 @@ h6 {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 1px;
+  max-width: 900px;
 }
 
 .aboutMassage__windowsContainer {
@@ -513,6 +514,8 @@ h6 {
   -ms-flex-line-pack: distribute;
       align-content: space-around;
   position: relative;
+  max-width: 320px;
+  margin: 0 auto;
   padding-bottom: 20px;
 }
 
@@ -529,6 +532,7 @@ h6 {
 
 .aboutMassage__windowIcon {
   font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .aboutMassage__windowDesc {
@@ -565,6 +569,22 @@ h6 {
 .aboutMassage__btn:hover {
   -webkit-filter: saturate(5);
           filter: saturate(5);
+}
+
+@media only screen and (min-width: 560px) {
+  .aboutMassage__windowsContainer {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-height: 700px) {
+  .aboutMassage__desc {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .aboutMassage__windowsContainer {
+    padding-bottom: 25px;
+  }
 }
 
 .benefits {
