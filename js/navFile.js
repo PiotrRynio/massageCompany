@@ -11,7 +11,16 @@ $(document).ready(function () {
             event.preventDefault();
             $('html, body').animate({
                 scrollTop: placeFromTop
-            }, 750);
+            }, 500);
         }
+    });
+    $('.stickyPhoneIcon').on('click', function (event) {
+        console.log('to tutaj');
+        const navBarHeight = $('.upperBar').height();
+        const placeFromTop = ($('#section-footer').offset().top - (navBarHeight));
+
+        $('html, body').animate({
+            scrollTop: placeFromTop
+        }, 500);
     });
 });
