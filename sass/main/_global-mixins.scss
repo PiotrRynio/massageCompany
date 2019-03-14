@@ -46,6 +46,7 @@
     line-height: 150%;
     letter-spacing: 1px;
     font-weight: 400;
+    text-shadow: 2px 2px 4px #000000;
     transition: all 0.5s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     filter: saturate(1.5);
@@ -70,7 +71,7 @@
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
     filter: saturate(1.5);
 
 }
@@ -86,6 +87,7 @@
     font-size: 15px;
     line-height: 150%;
     letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 
 @mixin mainFontBold {

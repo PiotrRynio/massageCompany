@@ -332,6 +332,7 @@ h6 {
   line-height: 150%;
   letter-spacing: 1px;
   font-weight: 400;
+  text-shadow: 2px 2px 4px #000000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -468,7 +469,7 @@ h6 {
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
 }
@@ -480,7 +481,7 @@ h6 {
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
   color: black;
@@ -492,6 +493,7 @@ h6 {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .aboutMassage__windowsContainer {
@@ -552,6 +554,7 @@ h6 {
   line-height: 150%;
   letter-spacing: 1px;
   font-weight: 400;
+  text-shadow: 2px 2px 4px #000000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -591,7 +594,7 @@ h6 {
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
 }
@@ -603,7 +606,7 @@ h6 {
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
   color: black;
@@ -615,6 +618,7 @@ h6 {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .benefits__bold {
@@ -634,6 +638,7 @@ h6 {
   line-height: 150%;
   letter-spacing: 1px;
   font-weight: 400;
+  text-shadow: 2px 2px 4px #000000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -722,6 +727,7 @@ h6 {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 0 0 0 80px;
   line-height: 150%;
   text-align: left;
@@ -756,7 +762,7 @@ h6 {
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
 }
@@ -768,7 +774,7 @@ h6 {
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
   color: black;
@@ -780,6 +786,7 @@ h6 {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .forCompany__bold {
@@ -813,6 +820,7 @@ h6 {
   line-height: 150%;
   letter-spacing: 1px;
   font-weight: 400;
+  text-shadow: 2px 2px 4px #000000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
