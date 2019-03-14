@@ -23,11 +23,20 @@
     height: 100%;
   }
 
-  // &__phone {
-  //   padding-left: 35px;
-  //   padding-bottom: 5px;
-  //   height: 80%;
-  // }
+  &__contactBtn {
+    @include mainBtn;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+    opacity: .5;
+
+    &:hover {
+      opacity: 1;
+      filter: saturate(1);
+    }
+  }
 
   &__burger {
     right: 20px;
@@ -37,6 +46,14 @@
   &__nav {
     position: absolute;
     top: 80px;
+  }
+}
+
+@media only screen and (min-width: 1000px()) {
+  .upperBar {
+    &__contactBtn {
+      display: inline-block;
+    }
   }
 }
 
