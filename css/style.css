@@ -950,6 +950,7 @@ h6 {
 .footer {
   background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
   background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  text-align: center;
 }
 
 .footer__contact, .footer__clause {
@@ -957,7 +958,7 @@ h6 {
 }
 
 .footer__contact {
-  padding: 30px 0 15px 40px;
+  padding: 40px 0 15px 40px;
 }
 
 .footer__line {
@@ -976,10 +977,16 @@ h6 {
   text-align: center;
 }
 
-.footer .infoContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media only screen and (orientation: portrait) and (min-height: 640px) {
+  .footer__contact {
+    padding-top: 40px;
+  }
+}
+
+.contactsContainer {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -997,17 +1004,23 @@ h6 {
   font-size: 16px;
 }
 
-.footer .infoContainer__item {
+.contactsContainer__item {
   -ms-flex-item-align: start;
       align-self: flex-start;
   line-height: 200%;
 }
 
-.footer .infoContainer__icon {
+.contactsContainer__icon {
   padding: 0 15px 0 0;
   font-size: 1.5em;
   -webkit-transform: translateY(10%);
           transform: translateY(10%);
   opacity: 0.5;
+}
+
+@media only screen and (min-height: 700px) {
+  .contactsContainer {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

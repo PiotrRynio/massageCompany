@@ -1,15 +1,14 @@
 .footer {
     background: $color-main-dist-mix-01;
+    text-align: center;
 
     &__contact,
     &__clause {
-        margin: 0 auto;
-        text-align: center;
         line-height: 180%;
     }
 
     &__contact {
-        padding: 30px 0 15px 40px;
+        padding: 40px 0 15px 40px;
     }
 
     &__line {
@@ -25,32 +24,48 @@
         padding: 10px 20px 25px;
         color: $color-main-font;
         font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media only screen {
+    @media (orientation: portrait) {
+        @media (min-height: 640px) {
+            .footer {
+                &__contact {
+                    padding-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+.contactsContainer {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    font-size: 16px;
+
+    &__item {
+        align-self: flex-start;
+        line-height: 200%;
     }
 
+    &__icon {
+        padding: 0 15px 0 0;
+        font-size: 1.5em;
+        transform: translateY(10%);
+        opacity: 0.5;
+    }
+}
 
-    .infoContainer {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: stretch;
-        align-content: center;
-        // background-color: $color-basic-font;
-        // color: $color-basic-bgc;
-        font-size: 16px;
-
-        &__item {
-            // flex-grow: 1;
-            align-self: flex-start;
-            line-height: 200%;
-        }
-
-        &__icon {
-            padding: 0 15px 0 0;
-            // color: $color-basic-distc;
-            font-size: 1.5em;
-            transform: translateY(10%);
-            opacity: 0.5;
+@media only screen {
+    @media (min-height: 700px) {
+        .contactsContainer {
+            font-size: 18px;
         }
     }
 }
