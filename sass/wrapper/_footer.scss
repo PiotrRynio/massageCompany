@@ -3,6 +3,8 @@
 
     &__contact,
     &__clause {
+        margin: 0 auto;
+        text-align: center;
         line-height: 180%;
     }
 
@@ -23,7 +25,6 @@
         padding: 10px 20px 25px;
         color: $color-main-font;
         font-size: 15px;
-        text-align: center;
     }
 
 
