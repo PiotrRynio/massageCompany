@@ -62,6 +62,11 @@
     padding: 40px 15px;
     text-align: center;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    @media (min-height: 700px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 @mixin mainTitleBigger {
@@ -90,6 +95,10 @@
     font-size: 15px;
     line-height: 150%;
     letter-spacing: 1px;
+
+    @media (min-height: 700px) {
+        padding: 30px 0;
+    }
 }
 
 @mixin mainFontBold {

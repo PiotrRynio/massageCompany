@@ -51,7 +51,6 @@
     }
 
     &__windowIcon {
-        @include flexCenteringBoth;
         position: absolute;
         top: 0;
         left: -20px;
@@ -63,7 +62,6 @@
     }
 
     &__windowDesc {
-        @include mainNormalDesc;
         padding: 0 0 0 80px;
         line-height: 150%;
         text-align: left;

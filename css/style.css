@@ -449,6 +449,13 @@ h6 {
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@media (min-height: 700px) {
+  .aboutMassage {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 .aboutMassage__bg {
   z-index: -1;
   position: absolute;
@@ -498,6 +505,12 @@ h6 {
   line-height: 150%;
   letter-spacing: 1px;
   max-width: 900px;
+}
+
+@media (min-height: 700px) {
+  .aboutMassage__desc {
+    padding: 30px 0;
+  }
 }
 
 .aboutMassage__windowsContainer {
@@ -582,11 +595,7 @@ h6 {
 }
 
 @media only screen and (orientation: landscape) and (min-height: 700px) {
-  .aboutMassage__desc {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .aboutMassage__windowsContainer {
+  __windowsContainer {
     padding-bottom: 25px;
   }
 }
@@ -597,6 +606,13 @@ h6 {
   text-align: center;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-height: 700px) {
+  .benefits {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .benefits__bg {
@@ -644,6 +660,12 @@ h6 {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 1px;
+}
+
+@media (min-height: 700px) {
+  .benefits__desc {
+    padding: 30px 0;
+  }
 }
 
 .benefits__bold {
@@ -725,17 +747,6 @@ h6 {
 }
 
 .benefits__windowIcon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: absolute;
   top: 0;
   left: -20px;
@@ -748,12 +759,6 @@ h6 {
 }
 
 .benefits__windowDesc {
-  padding: 20px 0;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 15px;
-  line-height: 150%;
-  letter-spacing: 1px;
   padding: 0 0 0 80px;
   line-height: 150%;
   text-align: left;
@@ -766,6 +771,13 @@ h6 {
   text-align: center;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-height: 700px) {
+  .forCompany {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .forCompany__bg {
@@ -816,6 +828,12 @@ h6 {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 1px;
+}
+
+@media (min-height: 700px) {
+  .forCompany__desc {
+    padding: 30px 0;
+  }
 }
 
 .forCompany__bold {

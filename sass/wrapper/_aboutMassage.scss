@@ -62,7 +62,6 @@
 }
 
 @media only screen {
-
     @media (min-width: 560px) {
         .aboutMassage {
             &__windowsContainer {
@@ -73,15 +72,8 @@
 
     @media (orientation: landscape) {
         @media (min-height: 700px) {
-            .aboutMassage {
-                &__desc {
-                    padding-top: 30px;
-                    padding-bottom: 30px;
-                }
-
-                &__windowsContainer {
-                    padding-bottom: 25px;
-                }
+            &__windowsContainer {
+                padding-bottom: 25px;
             }
         }
     }
