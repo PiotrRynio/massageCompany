@@ -898,6 +898,11 @@ h6 {
   font-weight: 700;
 }
 
+.forCompany__biggerFont {
+  font-size: 20px;
+  line-height: 200%;
+}
+
 .forCompany__btnContainer {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -23,6 +23,11 @@
         @include mainFontBold;
     }
 
+    &__biggerFont {
+        font-size: 20px;
+        line-height: 200%;
+    }
+
     &__btnContainer {
         display: flex;
         justify-content: space-around;
