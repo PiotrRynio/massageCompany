@@ -4,23 +4,21 @@ $(document).ready(function () {
         var target = $($(this).attr('href'));
         // check that exist
         if (target.length) {
-            const navBarHeight = $('.upperBar').height();
-            const placeFromTop = (target.offset().top - (navBarHeight));
-            // console.log(navBarHeight);
-            // console.log(placeFromTop);
+            const $myTarget = target
+            goToPlace($myTarget);
             event.preventDefault();
-            $('html, body').animate({
-                scrollTop: placeFromTop
-            }, 500);
         }
     });
     $('.stickyPhoneIcon').on('click', function (event) {
-        console.log('to tutaj');
-        const navBarHeight = $('.upperBar').height();
-        const placeFromTop = ($('#section-footer').offset().top - (navBarHeight));
-
-        $('html, body').animate({
-            scrollTop: placeFromTop
-        }, 500);
+        const $myTarget = $('#section-footer')
+        goToPlace($myTarget);
     });
 });
+
+function goToPlace($myTarget) {
+    const navBarHeight = $('.upperBar').height();
+    const placeFromTop = ($myTarget.offset().top - (navBarHeight));
+    $('html, body').animate({
+        scrollTop: placeFromTop
+    }, 600);
+}
