@@ -521,8 +521,7 @@ h6 {
   width: 120px;
   padding: 10px;
   border-radius: 20px;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: rgba(255, 255, 255, 0.3);
   border: #F2994A solid 2px;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
