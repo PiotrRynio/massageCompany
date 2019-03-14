@@ -1,6 +1,7 @@
 .footer {
-    background: $color-main-dist-mix-01;
     text-align: center;
+    background: $color-main-dist-mix-01;
+    filter: saturate(1.5);
 
     &__contact,
     &__clause {

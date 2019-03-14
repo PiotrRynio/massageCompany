@@ -995,9 +995,11 @@ h6 {
 }
 
 .footer {
+  text-align: center;
   background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
   background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
-  text-align: center;
+  -webkit-filter: saturate(1.5);
+          filter: saturate(1.5);
 }
 
 .footer__contact, .footer__clause {
