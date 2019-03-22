@@ -741,6 +741,12 @@ h6 {
   }
 }
 
+.benefits__desc--down {
+  text-align: justify;
+  letter-spacing: 0px;
+  text-indent: 35px;
+}
+
 .benefits__bold {
   font-weight: 700;
 }
