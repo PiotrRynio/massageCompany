@@ -4,7 +4,7 @@
     filter: saturate(1.5);
 
     &__contact,
-    &__clause {
+    &__clausesContainer {
         line-height: 180%;
     }
 
@@ -21,11 +21,19 @@
         content: "";
     }
 
-    &__clause {
+    &__clausesContainer {
         padding: 10px 20px 25px;
         color: $color-main-font;
         font-size: 15px;
         text-align: center;
+    }
+
+    &__howCookies {
+        opacity: 0.7;
+    }
+
+    &__privPolicy {
+        opacity: 0.7;
     }
 }
 

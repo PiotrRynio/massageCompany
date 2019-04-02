@@ -1010,7 +1010,7 @@ h6 {
           filter: saturate(1.5);
 }
 
-.footer__contact, .footer__clause {
+.footer__contact, .footer__clausesContainer {
   line-height: 180%;
 }
 
@@ -1027,11 +1027,19 @@ h6 {
   content: "";
 }
 
-.footer__clause {
+.footer__clausesContainer {
   padding: 10px 20px 25px;
   color: black;
   font-size: 15px;
   text-align: center;
+}
+
+.footer__howCookies {
+  opacity: 0.7;
+}
+
+.footer__privPolicy {
+  opacity: 0.7;
 }
 
 @media only screen and (orientation: portrait) and (min-height: 640px) {
