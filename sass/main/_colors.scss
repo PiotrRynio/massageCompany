@@ -1,13 +1,14 @@
 // all 
 
-// main
+// main 
 $color-main-font: black;
 $color-main-bgc: white;
 
-//main-dist
+//main-dist 
 $color-main-dist-font: white;
-$color-main-dist-01: #F2994A;
-$color-main-dist-02: #F2C94C;
+$color-main-dist-01: #3D9525;
+// $color-main-dist-01: #44A705;
+$color-main-dist-02: #79C000;
 $color-main-dist-mix-01: $color-main-dist-01 linear-gradient(to right, $color-main-dist-01, $color-main-dist-02);
 
 // preloader

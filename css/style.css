@@ -64,8 +64,8 @@ h6 {
   padding: 12px 25px;
   border-radius: 4px;
   border: none;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: #3D9525 -webkit-gradient(linear, left top, right top, from(#3D9525), to(#79C000));
+  background: #3D9525 linear-gradient(to right, #3D9525, #79C000);
   color: #FFFFFF;
   text-align: center;
   font-size: 16px;
@@ -135,8 +135,8 @@ h6 {
 
 .burger__first--active, .burger__second--active, .burger__third--active {
   top: 50%;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: #3D9525 -webkit-gradient(linear, left top, right top, from(#3D9525), to(#79C000));
+  background: #3D9525 linear-gradient(to right, #3D9525, #79C000);
 }
 
 .burger__first {
@@ -217,8 +217,8 @@ h6 {
   right: 0;
   width: 100vw;
   height: 100vh;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: #3D9525 -webkit-gradient(linear, left top, right top, from(#3D9525), to(#79C000));
+  background: #3D9525 linear-gradient(to right, #3D9525, #79C000);
   -webkit-transition: opacity .7s ease;
   transition: opacity .7s ease;
   /* Helpers */
@@ -292,7 +292,7 @@ h6 {
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  border: #F2C94C solid 2px;
+  border: #79C000 solid 2px;
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
@@ -371,8 +371,8 @@ h6 {
   padding: 12px 25px;
   border-radius: 4px;
   border: none;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: #3D9525 -webkit-gradient(linear, left top, right top, from(#3D9525), to(#79C000));
+  background: #3D9525 linear-gradient(to right, #3D9525, #79C000);
   color: #FFFFFF;
   text-align: center;
   font-size: 16px;
@@ -520,7 +520,7 @@ h6 {
   margin: 0 auto;
   text-align: center;
   line-height: 150%;
-  color: #F2994A;
+  color: #3D9525;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -533,7 +533,7 @@ h6 {
   margin: 0 auto;
   text-align: center;
   line-height: 150%;
-  color: #F2994A;
+  color: #3D9525;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -603,7 +603,7 @@ h6 {
   padding: 10px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.3);
-  border: #F2994A solid 2px;
+  border: #3D9525 solid 2px;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -626,8 +626,8 @@ h6 {
   padding: 12px 25px;
   border-radius: 4px;
   border: none;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: #3D9525 -webkit-gradient(linear, left top, right top, from(#3D9525), to(#79C000));
+  background: #3D9525 linear-gradient(to right, #3D9525, #79C000);
   color: #FFFFFF;
   text-align: center;
   font-size: 16px;
@@ -690,7 +690,7 @@ h6 {
   margin: 0 auto;
   text-align: center;
   line-height: 150%;
-  color: #F2994A;
+  color: #3D9525;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -703,7 +703,7 @@ h6 {
   margin: 0 auto;
   text-align: center;
   line-height: 150%;
-  color: #F2994A;
+  color: #3D9525;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -757,8 +757,8 @@ h6 {
   padding: 12px 25px;
   border-radius: 4px;
   border: none;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: #3D9525 -webkit-gradient(linear, left top, right top, from(#3D9525), to(#79C000));
+  background: #3D9525 linear-gradient(to right, #3D9525, #79C000);
   color: #FFFFFF;
   text-align: center;
   font-size: 16px;
@@ -889,15 +889,15 @@ h6 {
   width: 100%;
   background-size: cover;
   background-image: url("../img/sections/forCompany/forCompany-bg.jpg");
-  -webkit-filter: opacity(0.25);
-          filter: opacity(0.25);
+  -webkit-filter: opacity(0.32);
+          filter: opacity(0.32);
 }
 
 .forCompany__title--bigger {
   margin: 0 auto;
   text-align: center;
   line-height: 150%;
-  color: #F2994A;
+  color: #3D9525;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -910,7 +910,7 @@ h6 {
   margin: 0 auto;
   text-align: center;
   line-height: 150%;
-  color: #F2994A;
+  color: #3D9525;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -979,8 +979,8 @@ h6 {
   padding: 12px 25px;
   border-radius: 4px;
   border: none;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: #3D9525 -webkit-gradient(linear, left top, right top, from(#3D9525), to(#79C000));
+  background: #3D9525 linear-gradient(to right, #3D9525, #79C000);
   color: #FFFFFF;
   text-align: center;
   font-size: 16px;
@@ -1004,8 +1004,8 @@ h6 {
 
 .footer {
   text-align: center;
-  background: #F2994A -webkit-gradient(linear, left top, right top, from(#F2994A), to(#F2C94C));
-  background: #F2994A linear-gradient(to right, #F2994A, #F2C94C);
+  background: #3D9525 -webkit-gradient(linear, left top, right top, from(#3D9525), to(#79C000));
+  background: #3D9525 linear-gradient(to right, #3D9525, #79C000);
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
 }
